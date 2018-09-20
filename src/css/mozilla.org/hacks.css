@@ -1,12 +1,12 @@
 article.post {
   font-family: "Roboto", 'WenQuanYi Micro Hei' !important;
-  color: #222 !important;
+/*  color: #222 !important;
   text-shadow: 0 -1px 1px #bbb !important;
   font-weight: 400 !important;
   letter-spacing: normal !important;
   font-size: 16px !important;
   line-height: 1.6 !important;
-  text-align: left !important;
+  text-align: left !important;*/
 }
 
 article.post ol,
