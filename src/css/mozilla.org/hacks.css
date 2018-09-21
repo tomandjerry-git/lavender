@@ -1,79 +1,83 @@
 @-moz-document domain("hacks.mozilla.org") {
 
-    article.post {
-        font-family: "Roboto", 'WenQuanYi Micro Hei' !important;
-        /*  color: #222 !important;
-  text-shadow: 0 -1px 1px #bbb !important;
-  font-weight: 400 !important;
-  letter-spacing: normal !important;
-  font-size: 16px !important;
-  line-height: 1.6 !important;
-  text-align: left !important;*/
-    }
+  article.post {
+    font-family: "Roboto", 'WenQuanYi Micro Hei' !important;
+    color: #222 !important;
+    text-shadow: 0 -1px 1px #bbb !important;
+    font-weight: 400 !important;
+    letter-spacing: normal !important;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    text-align: left !important;
+  }
 
-    article.post ol,
-    article.post ol li,
-    article.post p,
-    article.post table,
-    article.post ul,
-    article.post ul li {
-        font-family: "Roboto", 'WenQuanYi Micro Hei' !important;
-        color: #222 !important;
-        text-shadow: 0 -1px 1px #bbb !important;
-        font-weight: 400 !important;
-        letter-spacing: normal !important;
-        font-size: 16px !important;
-        line-height: 1.6 !important;
-        text-align: left !important;
-    }
+  article.post p {
+    max-width: 660px !important;
+  }
 
-    article.post li em,
-    article.post p em,
-    article.post table em,
-    article.post li i,
-    article.post p i,
-    article.post table i {
-        color: steelblue !important;
-    }
+  article.post ol,
+  article.post ol li,
+  article.post p,
+  article.post table,
+  article.post ul,
+  article.post ul li {
+    font-family: "Roboto", 'WenQuanYi Micro Hei' !important;
+    color: #222 !important;
+    text-shadow: 0 -1px 1px #bbb !important;
+    font-weight: 400 !important;
+    letter-spacing: normal !important;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    text-align: left !important;
+  }
 
-    article.post li b,
-    article.post p b,
-    article.post table b,
-    article.post li strong,
-    article.post p strong,
-    article.post table strong {
-        color: #753A48 !important;
-    }
+  article.post li em,
+  article.post p em,
+  article.post table em,
+  article.post li i,
+  article.post p i,
+  article.post table i {
+    color: steelblue !important;
+  }
 
-    article.post li code,
-    article.post p code,
-    article.post table code {
-        font-weight: 500 !important;
-        color: seagreen !important;
-        padding: 1px 2px !important;
-        font-family: "Roboto Mono" !important;
-        font-size: 14.4px !important;
-        border: none !important;
-        text-shadow: 0 -1px 1px #bbb !important;
-        background-color: #F6F8FA !important;
-    }
+  article.post li b,
+  article.post p b,
+  article.post table b,
+  article.post li strong,
+  article.post p strong,
+  article.post table strong {
+    color: #753A48 !important;
+  }
 
-    article.post pre {
-        line-height: 1.5 !important;
-        font-family: "Roboto Mono" !important;
-        font-size: 14.4px !important;
-        border: none !important;
-        text-shadow: 0 -1px 1px #bbb !important;
-        background-color: #F6F8FA !important;
-        padding: 8px 16px !important;
-    }
+  article.post li code,
+  article.post p code,
+  article.post table code {
+    font-weight: 500 !important;
+    color: seagreen !important;
+    padding: 1px 2px !important;
+    font-family: "Roboto Mono" !important;
+    font-size: 14.4px !important;
+    border: none !important;
+    text-shadow: 0 -1px 1px #bbb !important;
+    background-color: #F6F8FA !important;
+  }
 
-    article.post pre code {
-        line-height: 1.5 !important;
-        font-family: "Roboto Mono" !important;
-        font-size: 14.4px !important;
-        border: none !important;
-        text-shadow: 0 -1px 1px #bbb !important;
-        background-color: #F6F8FA !important;
-    }
+  article.post pre {
+    line-height: 1.5 !important;
+    font-family: "Roboto Mono" !important;
+    font-size: 14.4px !important;
+    border: none !important;
+    text-shadow: 0 -1px 1px #bbb !important;
+    background-color: #F6F8FA !important;
+    padding: 8px 16px !important;
+  }
+
+  article.post pre code {
+    line-height: 1.5 !important;
+    font-family: "Roboto Mono" !important;
+    font-size: 14.4px !important;
+    border: none !important;
+    text-shadow: 0 -1px 1px #bbb !important;
+    background-color: #F6F8FA !important;
+  }
 }
